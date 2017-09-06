@@ -3,10 +3,7 @@ package application;
 import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
-import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
-import javafx.scene.layout.Pane;
-import javafx.scene.layout.VBox;
 
 public class ViewController {
 
@@ -21,8 +18,6 @@ public class ViewController {
 
 	@FXML
 	private TextArea textResoult;
-	
-	
 
 	public ViewController() {
 
@@ -36,7 +31,6 @@ public class ViewController {
 		textIn.setWrapText(true);
 		textResoult.setWrapText(true);
 		textResoult.setEditable(false);
-		
 
 	}
 

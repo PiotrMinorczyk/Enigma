@@ -4,9 +4,7 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.stage.Stage;
 import javafx.scene.Scene;
-import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.Pane;
-import javafx.scene.layout.VBox;
 
 public class Main extends Application {
 
@@ -19,7 +17,7 @@ public class Main extends Application {
 		FXMLLoader loader = new FXMLLoader();
 		loader.setLocation(this.getClass().getResource("/application/fxml/View.fxml"));
 		Pane pane = loader.load();
-		ViewController controler = loader.getController();
+		// ViewController controler = loader.getController();
 
 		Scene scene = new Scene(pane);
 
